@@ -1,0 +1,15 @@
+{
+  "name": "sliders-tauri",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "build:tauri": "tauri build --debug",
+    "build:web": "tauri build --target webkit2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.0"
+  }
+}
